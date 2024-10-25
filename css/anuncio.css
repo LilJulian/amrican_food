@@ -1,0 +1,9 @@
+.anuncio {
+  display: grid;
+  grid-template-columns: 300px, 1fr;
+  grid-template-rows: auto;
+  grid-area:
+    'info plato';
+}
+
+.info {}
