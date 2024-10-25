@@ -52,13 +52,20 @@
 
 /* logo */
 
-.logo{
-
-}
-
 .logo__img{
   width: 80px;
-  display: block;
+  cursor: pointer;
 }
+
+/* register/login*/
+
+.text__register{
+  color: white;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+
+
 
 
