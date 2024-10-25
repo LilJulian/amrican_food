@@ -26,13 +26,15 @@
   display: flex;
   align-items: center;
   padding: 0 15px;
-
 }
 
 .search__icon{
   font-size: 1.2rem;
   color: var(--color-body-fondo);
-  padding: 75px;
+}
+
+.contenedor__buscador{
+  margin-right: 700px;
 }
 
 .search__input{
@@ -43,6 +45,7 @@
   border: none;
   color: var(--color-body-fondo);
   padding-top: 20px;
+  
 }
 
 .search__hr{
@@ -52,20 +55,36 @@
 
 /* logo */
 
+.logo{
+  margin-right: 600px;
+}
+
 .logo__img{
   width: 80px;
   cursor: pointer;
+
 }
 
 /* register/login*/
+
+.header__derecho{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
 
 .text__register{
   color: white;
   font-size: 1rem;
   font-weight: normal;
-  padding-top: 20px;
 }
 
+
+.boton__icon{
+  color: white;
+}
 
 
 
