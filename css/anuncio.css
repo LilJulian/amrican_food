@@ -1,9 +1,10 @@
-.anuncio {
-  display: grid;
-  grid-template-columns: 300px, 1fr;
-  grid-template-rows: auto;
-  grid-area:
-    'info plato';
-}
+@import url(styles.css);
 
-.info {}
+.anuncio {
+
+  width: 100vw;
+  height: 1000px;
+  background-image: url(/img/fondo_menu.png);
+  background-size: cover;
+  /* background-color: red; */
+}
