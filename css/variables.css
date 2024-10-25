@@ -1,5 +1,8 @@
-:root{
+:root {
   --color-body-fondo: #ffff;
   --color-texto-body: #407630;
   --color-header-fondo: #386a00;
+  --color-texto-titulo: rgba(27, 92, 0, 255);
+  --color-texto-info: rgba(38, 101, 12, 255);
+  --color-fondo-boton: rgba(32, 95, 0, 255);
 }
