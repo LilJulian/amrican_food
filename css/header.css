@@ -1,0 +1,19 @@
+@import url(styles.css);
+@import url(variables.css);
+
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.header{
+  grid-area: header;
+  width: 100%  ;
+  background-color: var(--color-header-fondo);
+  padding: 0 100px;
+  top: 0;
+  position: fixed;
+}
+
