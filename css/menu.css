@@ -12,7 +12,7 @@
   flex-direction: row;
   width: 100%;
   gap: 40px;
-justify-content: center;
+  justify-content: center;
 }
 
 .menu-item{
