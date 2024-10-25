@@ -42,7 +42,7 @@
   outline: 8px;
   border: none;
   color: var(--color-body-fondo);
-  
+  padding-top: 20px;
 }
 
 .search__hr{
@@ -63,6 +63,7 @@
   color: white;
   font-size: 1rem;
   font-weight: normal;
+  padding-top: 20px;
 }
 
 
