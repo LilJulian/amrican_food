@@ -1,4 +1,5 @@
 @import url(styles.css);
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
 
 .anuncio {
   width: 100vw;
@@ -9,37 +10,59 @@
 
 .info {
   position: relative;
-  color: green;
+  color: var(--color-texto-titulo);
   top: 300px;
-  max-width: 300px;
+  max-width: 350px;
   left: 50px;
 }
 
+.titulo__principal {
+  font-size: 39px;
+}
+
+.titulo__secundario {
+  font-family: "Arima", system-ui;
+}
+
 .titulos {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  font-family: "Open";
 }
 
 .linea__anuncio {
-  background-color: green;
-  height: 4px;
+  background-color: var(--color-texto-titulo);
+  height: 3px;
   border: none;
   margin-bottom: 20px;
+  width: 200px;
+}
+
+.texto__anuncio-descripcion {
+  color: var(--color-texto-info);
 }
 
 .botones__anuncio {
+  display: flex;
   margin-top: 40px;
+  align-items: center;
+  gap: 20px;
 }
 
 .boton__menu {
   width: 120px;
+}
+
+.boton__flecha {
+  width: 50px;
+  font-size: 15px;
+}
+
+.boton__menu,
+.boton__flecha {
   height: 45px;
   border: none;
-  background-color: green;
+  background-color: var(--color-fondo-boton);
   color: white;
   border-radius: 10px 0;
   cursor: pointer;
-}
-
-.icono__anuncio {
-  max-width: 50px;
 }
