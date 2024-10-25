@@ -1,10 +1,45 @@
 @import url(styles.css);
 
 .anuncio {
-
   width: 100vw;
   height: 1000px;
   background-image: url(/img/fondo_menu.png);
   background-size: cover;
-  /* background-color: red; */
+}
+
+.info {
+  position: relative;
+  color: green;
+  top: 300px;
+  max-width: 300px;
+  left: 50px;
+}
+
+.titulos {
+  margin-bottom: 20px;
+}
+
+.linea__anuncio {
+  background-color: green;
+  height: 4px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.botones__anuncio {
+  margin-top: 40px;
+}
+
+.boton__menu {
+  width: 120px;
+  height: 45px;
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 10px 0;
+  cursor: pointer;
+}
+
+.icono__anuncio {
+  max-width: 50px;
 }
