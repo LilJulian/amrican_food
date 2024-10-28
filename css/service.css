@@ -17,8 +17,8 @@
   display: flex;
   background-image: url(/img/Title2.png);
   justify-content: center;
-   font
-  
+  font-size: 4rem;
+  background-size: cover;
 }
 
 .text-service{
