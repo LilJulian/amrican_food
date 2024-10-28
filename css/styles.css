@@ -3,6 +3,7 @@
 @import url(variables.css);
 @import url(anuncio.css);
 @import url(menu.css);
+@import url(service.css);
 
 * {
   margin: 0;
