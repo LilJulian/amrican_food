@@ -14,11 +14,27 @@
   max-width: 350px;
   left: 50px;
   font-family: "Roboto", sans-serif;
-
   font-style: normal;
 }
 
 .sale__descuento{
+  position: relative;
+  color: green;
+  top: 300px;
+  max-width: 350px;
+  left: 50px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
 
+.food__descuento{
+  position: relative;
+  color: green;
+  top: 300px;
+  max-width: 350px;
+  left: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
