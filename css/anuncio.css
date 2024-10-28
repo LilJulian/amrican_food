@@ -3,7 +3,7 @@
 
 .anuncio {
   width: 100vw;
-  height: 1000px;
+  height: 90vh;
   background-image: url(/img/fondo_menu.png);
   background-size: cover;
 }
