@@ -23,6 +23,17 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: '';
+  grid-template-areas:
+    'descripcion__first about__video'
+    'about__video descripcion';
+  padding: 40px;
+  gap: 20px;
+}
 
+.descripcion_first {
+  grid-area: descripcion__first;
+}
+
+.about__video {
+  grid-area: about__video;
 }
