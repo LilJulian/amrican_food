@@ -17,9 +17,11 @@
   display: flex;
   background-image: url(/img/Title2.png);
   justify-content: center;
+   font
   
 }
 
 .text-service{
   text-align: center;
+  padding-top: 20px;
 }
