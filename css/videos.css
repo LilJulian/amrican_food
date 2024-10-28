@@ -1,0 +1,35 @@
+@import url(styles.css);
+
+.about {
+  display: flex;
+  /* position: relative; */
+}
+
+.titulo__about {
+  display: flex;
+  /* width: 100%; */
+  left: 50%;
+  /* position: absolute; */
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo__about {
+  display: flex;
+  grid-area: titulo__about;
+  height: 200px;
+  background-image: url(/img/fondoAbout.png);
+
+}
+
+.titulo__nombre {
+  text-align: center;
+}
+
+.descripcion {
+  grid-area: descripcion;
+}
+
+.video {
+  grid-area: video;
+}
