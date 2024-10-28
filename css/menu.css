@@ -18,7 +18,7 @@
 }
 
 .menu-item{
-  color: #407630;
+  color: var(--color-texto-body);
   text-decoration: none;
   font-size: 1.3rem;
   font-weight:500;
