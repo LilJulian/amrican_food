@@ -21,30 +21,14 @@
   background-size: cover;
 }
 
-.text-service{
-  text-align: center;
-  padding-top: 20px;
-}
 .menu-service{
-  display: flex ;
-  flex-direction: column;
-
+  display: flex;
 }
-
-.platillo__menu-service{
-  /* justify-items: start; */
+.platillos__menu-service{
+  width: 1000px;
+  display: flex;
   flex-direction: row;
-}
-.precio{
-  justify-items: end;
-}
-
-.Lorem-text{
-  max-width: 400px;
-  text-align: start;
-  flex-direction: row;
+  gap: 600px;
+  justify-content:space-around ;
 }
 
-.img-platillos__menuservices{
-  flex-direction: row;
-}
