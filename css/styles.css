@@ -29,7 +29,14 @@
 }
 
 .boton__largo {
-  width: 120px;
+  width: 150px;
+}
+
+.boton__des{
+  position: relative;
+  top: 230px;
+  left: 50px;
+  width: 180px;
 }
 
 .boton__corto {

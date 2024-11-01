@@ -2,14 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Danfo&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-.descuento{
+
+/* descuento arriba */
+
+.descuentos{
   width: 100vw;
   height: 70vh;
   background-image: url(/img/img\ 3.png);
   background-size: cover;
 }
 
-.especial__descuento{
+.especial__descuentos{
   position: relative;
   color: green;
   top: 200px;
@@ -19,7 +22,7 @@
   font-style: normal;
 }
 
-.sale__descuento{
+.sale__descuentos{
   position: relative;
   color: green;
   top: 200px;
@@ -29,7 +32,7 @@
   font-size: 500%;
 }
 
-.food__descuento{
+.food__descuentos{
   position: relative;
   color: green;
   top: 200px;
@@ -41,7 +44,7 @@
   font-size: 400%;
 }
 
-.lorem__descuento{
+.lorem__descuentos{
   position: relative;
   color: green;
   top: 200px;
@@ -50,3 +53,4 @@
   font-size: 1.2rem;
 }
 
+/* descuento abajo */
