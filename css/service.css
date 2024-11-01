@@ -25,11 +25,15 @@
   text-align: center;
   padding-top: 20px;
 }
-.menu__service{
+.menu-service{
   flex-direction: row;
   justify-content: space-around;
 }
 
 .platillo{
-  
+  flex-direction: row;
+}
+
+.lorem ¿{
+
 }
