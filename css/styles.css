@@ -8,6 +8,7 @@
 @import url(descuentos.css);
 @import url(pricing.css);
 @import url(blog.css);
+@import url(final.css);
 
 * {
   margin: 0;
@@ -34,7 +35,7 @@
   width: 150px;
 }
 
-.botones__servicios{
+.botones__servicios {
   margin-left: 50px;
 }
 
