@@ -48,26 +48,22 @@
 
 .about__video_first {
   grid-area: about__video_first;
-  display: flex;
-  justify-content: end;
-
-}
-
-.about__video {
-  grid-area: about__video;
-}
-
-.descripcion {
-  grid-area: descripcion;
-}
-
-.imagen__about {
-  /* width: 450px;
-  height: 300px; */
   background-image: linear-gradient(#00ff402f 50%, #00ff402f 50%), url(../img/img\ 1.png);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.about__video {
+  grid-area: about__video;
+  background-image: linear-gradient(#00ff402f 50%, #00ff402f 50%), url(../img/img\ 1.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.descripcion {
+  grid-area: descripcion;
 }
 
 .imagen__youtube {
