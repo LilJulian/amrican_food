@@ -15,7 +15,7 @@
 .especial__descuentos{
   position: relative;
   color: green;
-  top: 150px;
+  top: 120px;
   max-width: 1000px;
   left: 50px;
   font-family: "Roboto", sans-serif;
@@ -25,17 +25,17 @@
 .sale__descuentos{
   position: relative;
   color: green;
-  top: 150px;
+  top: 120px;
   max-width: 1000px;
   left: 50px;
   font-family: "Cabin", sans-serif;
-  font-size: 500%;
+  font-size: 400%;
 }
 
 .food__descuentos{
   position: relative;
   color: green;
-  top: 150px;
+  top: 120px;
   max-width: 1000px;
   left: 50px;
   font-family: "Roboto", sans-serif;
@@ -47,7 +47,7 @@
 .lorem__descuentos{
   position: relative;
   color: green;
-  top: 150px;
+  top: 120px;
   max-width: 750px;
   left: 50px;
   font-size: 1.2rem;
@@ -67,8 +67,39 @@
   color: green;
   top: 110px;
   max-width: 1000px;
-  left: 1700px;
+  left: 1705px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
+}
 
+.sale__descuento{
+  position: relative;
+  color: green;
+  top: 120px;
+  max-width: 1000px;
+  left: 1180px;
+  font-family: "Cabin", sans-serif;
+  font-size: 400%;
+}
+
+.food__descuento{
+  position: relative;
+  color: green;
+  top: 120px;
+  max-width: 1000px;
+  left: 1179px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 397%;
+}
+
+.lorem__descuento{
+  position: relative;
+  color: green;
+  top: 120px;
+  max-width: 750px;
+  left: 1060px;
+  font-size: 1.2rem;
+  text-align: end;
 }

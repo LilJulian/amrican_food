@@ -35,8 +35,15 @@
 
 .boton__des {
   position: relative;
-  top: 190px;
+  top: 170px;
   left: 50px;
+  width: 180px;
+}
+
+.boton__descuen{
+  position: relative;
+  top: 170px;
+  left: 1630px;
   width: 180px;
 }
 
