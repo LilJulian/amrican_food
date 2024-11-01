@@ -23,6 +23,7 @@
 
 .menu-service{
   display: flex;
+  flex-direction: column;
 }
 .platillos__menu-service{
   width: 1000px;
@@ -32,3 +33,9 @@
   justify-content:space-around ;
 }
 
+.lorem-text__menu-service{
+  width: 1000px;
+  height: 100px;
+  display: flex;
+
+}

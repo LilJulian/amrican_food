@@ -1,4 +1,4 @@
-.pricing {
+.pricing__inicial {
   display: flex;
   flex-direction: column;
   height: 300px;
@@ -9,6 +9,49 @@
 
 .pricing__titulo {
   background-image: url(../img/titulo_pricing.png);
-  /* background-size: cover; */
-  width: 280px;
+  background-size: cover;
+  width: 290px;
+  height: 55px;
+  margin-bottom: 30px;
+}
+
+.pricing__descripcion {
+  width: 400px;
+}
+
+.pricing__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: 500px;
+  grid-template-areas:
+    'basic standart premium';
+  justify-content: center;
+  gap: 28px;
+  margin-bottom: 80px;
+
+
+}
+
+.plan {
+  background-color: aliceblue;
+}
+
+.basic {
+  grid-area: basic;
+}
+
+.standart {
+  grid-area: standart;
+}
+
+.premium {
+  grid-area: premium;
+}
+
+.parte__verde {
+  background-color: green;
+  color: white;
+  height: 40%;
+  text-align: center;
+  align-items: center;
 }
