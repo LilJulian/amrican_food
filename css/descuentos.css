@@ -15,7 +15,7 @@
 .especial__descuentos{
   position: relative;
   color: green;
-  top: 200px;
+  top: 150px;
   max-width: 1000px;
   left: 50px;
   font-family: "Roboto", sans-serif;
@@ -25,7 +25,7 @@
 .sale__descuentos{
   position: relative;
   color: green;
-  top: 200px;
+  top: 150px;
   max-width: 1000px;
   left: 50px;
   font-family: "Cabin", sans-serif;
@@ -35,7 +35,7 @@
 .food__descuentos{
   position: relative;
   color: green;
-  top: 200px;
+  top: 150px;
   max-width: 1000px;
   left: 50px;
   font-family: "Roboto", sans-serif;
@@ -47,10 +47,28 @@
 .lorem__descuentos{
   position: relative;
   color: green;
-  top: 200px;
+  top: 150px;
   max-width: 750px;
   left: 50px;
   font-size: 1.2rem;
 }
 
 /* descuento abajo */
+
+.descuento{
+  width: 100vw;
+  height: 70vh;
+  background-image: url(/img/img\ 4.png);
+  background-size: cover;
+}
+
+.especial__descuento{
+  position: relative;
+  color: green;
+  top: 110px;
+  max-width: 1000px;
+  left: 1700px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+
+}
