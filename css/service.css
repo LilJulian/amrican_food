@@ -25,11 +25,26 @@
   text-align: center;
   padding-top: 20px;
 }
-.menu__service{
-  flex-direction: row;
-  justify-content: space-around;
+.menu-service{
+  display: flex ;
+  flex-direction: column;
+
 }
 
-.platillo{
-  
+.platillo__menu-service{
+  /* justify-items: start; */
+  flex-direction: row;
+}
+.precio{
+  justify-items: end;
+}
+
+.Lorem-text{
+  max-width: 400px;
+  text-align: start;
+  flex-direction: row;
+}
+
+.img-platillos__menuservices{
+  flex-direction: row;
 }
