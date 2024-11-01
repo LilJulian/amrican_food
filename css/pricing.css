@@ -1,0 +1,14 @@
+.pricing {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing__titulo {
+  background-image: url(../img/titulo_pricing.png);
+  /* background-size: cover; */
+  width: 280px;
+}

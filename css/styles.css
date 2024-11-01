@@ -6,6 +6,7 @@
 @import url(service.css);
 @import url(videos.css);
 @import url(descuentos.css);
+@import url(pricing.css);
 
 * {
   margin: 0;
@@ -32,7 +33,7 @@
   width: 150px;
 }
 
-.boton__des{
+.boton__des {
   position: relative;
   top: 230px;
   left: 50px;
