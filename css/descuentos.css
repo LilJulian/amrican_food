@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Danfo&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Danfo&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .descuento{
   width: 100vw;
   height: 70vh;
@@ -10,8 +12,8 @@
 .especial__descuento{
   position: relative;
   color: green;
-  top: 300px;
-  max-width: 350px;
+  top: 200px;
+  max-width: 1000px;
   left: 50px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -20,21 +22,31 @@
 .sale__descuento{
   position: relative;
   color: green;
-  top: 300px;
-  max-width: 350px;
+  top: 200px;
+  max-width: 1000px;
   left: 50px;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: "Cabin", sans-serif;
+  font-size: 500%;
 }
 
 .food__descuento{
   position: relative;
   color: green;
-  top: 300px;
-  max-width: 350px;
+  top: 200px;
+  max-width: 1000px;
   left: 50px;
   font-family: "Roboto", sans-serif;
-  font-weight: 100;
+  font-weight: 400;
   font-style: normal;
+  font-size: 400%;
+}
+
+.lorem__descuento{
+  position: relative;
+  color: green;
+  top: 200px;
+  max-width: 750px;
+  left: 50px;
+  font-size: 1.2rem;
 }
 
