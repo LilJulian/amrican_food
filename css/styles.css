@@ -33,6 +33,10 @@
   width: 150px;
 }
 
+.botones__servicios{
+  margin-left: 50px;
+}
+
 .boton__des {
   position: relative;
   top: 170px;

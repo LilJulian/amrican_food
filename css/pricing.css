@@ -49,9 +49,30 @@
 }
 
 .parte__verde {
+  display: flex;
   background-color: green;
   color: white;
   height: 40%;
-  text-align: center;
+  /* text-align: center; */
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.parte__blanca {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 60%;
+  gap: 30px;
+}
+
+.lista__comida {
+  list-style: none;
+}
+
+.comida {
+  margin-bottom: 10px;
 }
