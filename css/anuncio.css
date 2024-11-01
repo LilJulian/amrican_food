@@ -40,29 +40,3 @@
 .texto__anuncio-descripcion {
   color: var(--color-texto-info);
 }
-
-.botones__anuncio {
-  display: flex;
-  margin-top: 40px;
-  align-items: center;
-  gap: 20px;
-}
-
-.boton__menu {
-  width: 120px;
-}
-
-.boton__flecha {
-  width: 50px;
-  font-size: 15px;
-}
-
-.boton__menu,
-.boton__flecha {
-  height: 45px;
-  border: none;
-  background-color: var(--color-fondo-boton);
-  color: white;
-  border-radius: 10px 0;
-  cursor: pointer;
-}
