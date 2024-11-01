@@ -24,16 +24,35 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
-    'descripcion__first about__video'
+    'descripcion__first about__video_first'
     'about__video descripcion';
-  padding: 40px;
+  padding: 80px;
   gap: 20px;
 }
 
-.descripcion_first {
+.descripcion__first {
   grid-area: descripcion__first;
+  /* padding: 50px; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.texto__about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__video_first {
+  grid-area: about__video_first;
+  /* width: 150px; */
 }
 
 .about__video {
   grid-area: about__video;
+}
+
+.descripcion {
+  grid-area: descripcion;
 }

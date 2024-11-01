@@ -20,3 +20,29 @@
   display: flex;
   flex-direction: column;
 }
+
+.botones__global {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  gap: 20px;
+}
+
+.boton__largo {
+  width: 120px;
+}
+
+.boton__corto {
+  width: 50px;
+  font-size: 15px;
+}
+
+.boton__largo,
+.boton__corto {
+  height: 45px;
+  border: none;
+  background-color: var(--color-fondo-boton);
+  color: white;
+  border-radius: 10px 0;
+  cursor: pointer;
+}
