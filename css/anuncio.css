@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
 
 .anuncio {
-  width: 100vw;
-  height: 90vh;
+  /* width: 100vw; */
+  height: 100vh;
   background-image: url(/img/fondo_menu.png);
   background-size: cover;
+  background-position: center;
 }
 
 .info {

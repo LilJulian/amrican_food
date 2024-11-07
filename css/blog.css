@@ -17,7 +17,7 @@
 
 .contenedor__blog {
   display: flex;
-
+  justify-content: center;
 }
 
 .cuadro {
