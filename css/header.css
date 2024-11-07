@@ -1,14 +1,14 @@
 @import url(variables.css);
 
-.container{
-  max-width: 1200px;
+.container {
+  max-width: auto;
   width: 100%;
   margin: auto;
   padding: 0 10px;
 }
 
-.header{
-  width: 100%  ;
+.header {
+  width: 100%;
   background-color: var(--color-header-fondo);
   padding: 0 100px;
   position: sticky;
@@ -17,7 +17,7 @@
 
 /* buscador */
 
-.search{
+.search {
   background-color: var(--color-header-fondo);
   border-radius: 0;
   display: flex;
@@ -25,16 +25,16 @@
   padding: 0 15px;
 }
 
-.search__icon{
+.search__icon {
   font-size: 1.2rem;
   color: var(--color-body-fondo);
 }
 
-.contenedor__buscador{
+.contenedor__buscador {
   margin-right: 700px;
 }
 
-.search__input{
+.search__input {
   width: 100px;
   background-color: transparent;
   padding: 8;
@@ -42,21 +42,21 @@
   border: none;
   color: var(--color-body-fondo);
   padding-top: 20px;
-  
+
 }
 
-.search__hr{
+.search__hr {
   color: var(--color-body-fondo);
   max-width: 200px;
 }
 
 /* logo */
 
-.logo{
+.logo {
   margin-right: 600px;
 }
 
-.logo__img{
+.logo__img {
   width: 80px;
   cursor: pointer;
 
@@ -64,7 +64,7 @@
 
 /* register/login*/
 
-.header__derecho{
+.header__derecho {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -72,7 +72,7 @@
   gap: 20px;
 }
 
-.text__register{
+.text__register {
   color: white;
   font-size: 1rem;
   font-weight: normal;
@@ -80,38 +80,37 @@
 }
 
 
-.boton__icon{
+.boton__icon {
   color: white;
   cursor: pointer;
 }
 
-.me_gusta{
+.me_gusta {
   position: relative;
 }
 
-.me_gusta::after{
+.me_gusta::after {
   content: " ";
   width: 12px;
   height: 12px;
   position: absolute;
   right: 3;
   top: 0;
-  background-color:green;
+  background-color: green;
   border-radius: 50%;
 }
 
-.compra{
+.compra {
   position: relative;
 }
 
-.compra::after{
+.compra::after {
   content: " ";
   width: 12px;
   height: 12px;
   position: absolute;
   right: 3;
   top: 0;
-  background-color:green;
+  background-color: green;
   border-radius: 50%;
 }
-
