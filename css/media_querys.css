@@ -1,7 +1,4 @@
 @media (max-width: 872px) {
-  .anuncio {
-    max-width: auto;
-  }
 
   .about__grid {
     grid-template-columns: 1fr;
@@ -13,4 +10,5 @@
       'about__video';
     padding: 20px;
   }
+  
 }
