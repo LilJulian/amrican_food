@@ -1,7 +1,7 @@
 @import url(variables.css);
 
 .container {
-  max-width: auto;
+  max-width: 1200px;
   width: 100%;
   margin: auto;
   padding: 0 10px;
@@ -11,7 +11,7 @@
   width: 100%;
   background-color: var(--color-header-fondo);
   padding: 0 100px;
-  position: sticky;
+  /* position: sticky; */
   display: flex;
 }
 
