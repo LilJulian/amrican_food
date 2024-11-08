@@ -1,5 +1,6 @@
 .blog{
   margin-bottom: 80px;
+  width: 100%;
 }
 
 .blog__inicial {
@@ -29,7 +30,7 @@
 }
 
 .texto__blog{
-  width: 400px;
+  width: 300px;
   background-color: rgb(231, 231, 231);
   display: flex;
   flex-direction: column;
