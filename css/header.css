@@ -2,9 +2,15 @@
 
 .encabezado {
   background-color: var(--color-header-fondo);
-  padding: 0 100px;
-  /* position: sticky; */
+  position: sticky;
+  width: 100%;
+}
+
+.header__container{
   display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 /* buscador */
@@ -20,10 +26,6 @@
 .search__icon {
   font-size: 1.2rem;
   color: var(--color-body-fondo);
-}
-
-.contenedor__buscador {
-  margin-right: 700px;
 }
 
 .search__input {
@@ -43,10 +45,6 @@
 }
 
 /* logo */
-
-.logo {
-  margin-right: 600px;
-}
 
 .logo__img {
   width: 80px;

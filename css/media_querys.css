@@ -10,5 +10,15 @@
       'about__video';
     padding: 20px;
   }
+
+  .pricing__grid{
+    grid-template-columns: 600px;
+    grid-template-rows: repeat(3, 500px);
+    grid-template-areas:
+      'basic'
+      'standart'
+      'premium';
+    padding: 40px;
+  }
   
 }

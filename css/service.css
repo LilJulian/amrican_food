@@ -1,55 +1,33 @@
-.services {
-  /* background-image: url(/img/Title2.png); */
-  width: 100%;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 40px;
+.contenedor__service{
+    padding: 0 40px;
+    margin-bottom: 80px;
 }
 
-.service {
-  text-align: center;
-  align-items: center;
-  width: 390px;
-  height: 74px;
-  display: flex;
-  background-image: url(/img/Title2.png);
-  justify-content: center;
-  font-size: 4rem;
-  background-size: cover;
+.item__service{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
-.menu-service {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.titulo__service{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
-.platillos__menu-service {
-  margin-left: 30px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  gap: 600px;
-  justify-content: space-around;
+.service__left {
+    margin-right: 50px;
 }
 
-.lorem-text__menu-service {
-  margin-top: 15px;
-  max-width: 800px;
-  height: 100px;
-  display: flex;
-  margin-left: 50px;
+
+.imagen__service{
+    width: 400px;
+    height: 200px;
 }
 
-.img-platillos__menu-service {
-  max-width: 450px;
-  width: 100%;
-}
-
-.img-platillos__menu-service img {
-  width: 100%;
+.parrafo__service{
+    width: 900px;
+    padding-right: 70px;
+    margin-bottom: 40px;
 }
