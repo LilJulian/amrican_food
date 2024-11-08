@@ -22,13 +22,13 @@
   background-color: var(--color-body-fondo);
   color: var(--color-texto-body);
   display: flex;
-  flex-direction: column;
+  flex-direction: var(--direccion-columnas);
 }
 
 .botones__global {
   display: flex;
   margin-top: 40px;
-  align-items: center;
+  align-items: var(--alineacion);
   gap: 20px;
 }
 
@@ -64,7 +64,7 @@
   height: 45px;
   border: none;
   background-color: var(--color-fondo-boton);
-  color: white;
+  color: var(--color-body-fondo);
   border-radius: 10px 0;
   cursor: pointer;
 }

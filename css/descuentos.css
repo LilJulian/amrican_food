@@ -17,7 +17,7 @@
 }
 
 .especial__descuentos{
-  color: green;
+  color: var(--color-texto-body);
   top: 120px;
   max-width: 1000px;
   left: 50px;
@@ -26,7 +26,7 @@
 }
 
 .sale__descuentos{
-  color: green;
+  color: var(--color-texto-body);
   top: 120px;
   max-width: 1000px;
   left: 50px;
@@ -35,7 +35,7 @@
 }
 
 .food__descuentos{
-  color: green;
+  color: var(--color-texto-body);
   top: 120px;
   max-width: 1000px;
   left: 50px;
@@ -46,7 +46,7 @@
 }
 
 .lorem__descuentos{
-  color: green;
+  color: var(--color-texto-body);
   top: 120px;
   max-width: 750px;
   left: 50px;
@@ -65,5 +65,5 @@
   width: 100%;
   display: flex;
   align-items: end;
-  flex-direction: column;
+  flex-direction: var(--direccion-columnas);
 }

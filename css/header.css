@@ -19,7 +19,7 @@
   background-color: var(--color-header-fondo);
   border-radius: 0;
   display: flex;
-  align-items: center;
+  align-items: var(--alineacion);
   padding: 0 15px;
 }
 
@@ -56,14 +56,14 @@
 
 .header__derecho {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  flex-direction: var(--direccion-filas);
+  align-items: var(--alineacion);
+  justify-content: var(--alineacion);
   gap: 20px;
 }
 
 .text__register {
-  color: white;
+  color: var(--color-body-fondo);
   font-size: 1rem;
   font-weight: normal;
   cursor: pointer;
@@ -71,7 +71,7 @@
 
 
 .boton__icon {
-  color: white;
+  color: var(--color-body-fondo);
   cursor: pointer;
 }
 
@@ -86,7 +86,7 @@
   position: absolute;
   right: 3;
   top: 0;
-  background-color: green;
+  background-color: var(--color-header-fondo);
   border-radius: 50%;
 }
 
@@ -101,6 +101,6 @@
   position: absolute;
   right: 3;
   top: 0;
-  background-color: green;
+  background-color: var(--color-header-fondo);
   border-radius: 50%;
 }

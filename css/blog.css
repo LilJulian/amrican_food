@@ -5,11 +5,11 @@
 
 .blog__inicial {
   display: flex;
-  flex-direction: column;
+  flex-direction: var(--direccion-columnas);
   height: 300px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+  text-align: var(--alineacion);
+  justify-content: var(--alineacion);
+  align-items: var(--alineacion);
 }
 
 .blog__titulo {
@@ -22,7 +22,7 @@
 
 .contenedor__blog {
   display: flex;
-  justify-content: center;
+  justify-content: var(--alineacion);
 }
 
 .cuadro {
@@ -33,7 +33,7 @@
   width: 300px;
   background-color: rgb(231, 231, 231);
   display: flex;
-  flex-direction: column;
+  flex-direction: var(--direccion-columnas);
   padding: 20px;
   gap: 30px;
   min-width: 400px;

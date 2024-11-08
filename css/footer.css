@@ -1,18 +1,18 @@
 @import url(variables.css);
 
 .final__pagina{
-    background-color: green;
-    color: white;
+    background-color: var(--color-texto-body);
+    color: var(--color-body-fondo);
     display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: var(--alineacion);
+    text-align: var(--alineacion);
     height: 250px;
     padding: 20px;
 }
 
 .footer__info{
     display: flex;
-    flex-direction: column;
+    flex-direction: var(--direccion-columnas);
     gap: 20px;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .link__page{
-    color: white;
+    color: var(--color-body-fondo);
     text-decoration: none;
 }
 

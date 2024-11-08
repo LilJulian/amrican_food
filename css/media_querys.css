@@ -22,7 +22,7 @@
   }
 
   .contenedor__blog{
-    flex-direction: column;
+    flex-direction: var(--direccion-columnas);
     margin-left: 25%;
   }
 
