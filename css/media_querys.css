@@ -1,4 +1,4 @@
-@media (max-width: 872px) {
+@media (max-width: 1000px) {
 
   .about__grid {
     grid-template-columns: 1fr;
@@ -19,6 +19,19 @@
       'standart'
       'premium';
     padding: 40px;
+  }
+
+  .contenedor__blog{
+    flex-direction: column;
+    margin-left: 25%;
+  }
+
+  .cuadro{
+    margin-bottom: 20px; 
+  }
+
+  .item__service{
+    display: block;
   }
   
 }

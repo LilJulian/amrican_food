@@ -1,15 +1,31 @@
 @import url(variables.css);
 
-.footer{
+.final__pagina{
+    background-color: green;
+    color: white;
     display: flex;
     justify-content: center;
+    text-align: center;
+    height: 250px;
+    padding: 20px;
 }
 
 .footer__info{
-    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.logo__footer{
-    width: 50px;
-    height: 50px;
+.lista__redes{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin-bottom: 10px;
+    padding-left: 30px;
 }
+
+.link__page{
+    color: white;
+    text-decoration: none;
+}
+
