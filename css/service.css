@@ -4,6 +4,28 @@
     width: 100%;
 }
 
+.services{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.titulo__services{
+    /* background-image: url(/img/Title.png); */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/img/Title.png);
+    background-size: cover;
+    width: 280px;
+    height: 55px;
+    font-size: 2.5rem;
+}
+
+.text-titulo__services{
+    margin-top: 30px;
+    width: 430px;
+}
+
 .item__service{
     width: 100%;
     display: flex;
