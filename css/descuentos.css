@@ -31,18 +31,18 @@
   max-width: 1000px;
   left: 50px;
   font-family: "Cabin", sans-serif;
-  font-size: 400%;
+  font-size: 4.5vw;
 }
 
 .food__descuentos{
   color: var(--color-texto-body);
   top: 120px;
-  max-width: 1000px;
+  /* max-width: 1000px; */
   left: 50px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 400%;
+  font-size: 4.5vw;
 }
 
 .lorem__descuentos{
@@ -50,8 +50,8 @@
   top: 120px;
   max-width: 750px;
   left: 50px;
-  font-size: 1.2rem;
-  margin-bottom: 40px;
+  font-size: 1.7vw;
+  margin-bottom: 20px;
 }
 
 /* descuento abajo */
