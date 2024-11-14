@@ -4,26 +4,7 @@
     width: 100%;
 }
 
-.services{
-    display: flex;
-    flex-direction: var(--direccion-columnas);
-    height: 300px;
-    text-align: var(--alineacion);
-    justify-content: var(--alineacion);
-    align-items: var(--alineacion);
-}
-.titulo__services{
-    background-image: url(/img/Title2.png);
-    background-size: cover;
-    width: 280px;
-    height: 55px;
-    font-size: 2.5rem;
-}
 
-.text-titulo__services{
-    margin-top: 30px;
-    width: 430px;
-}
 
 .item__service{
     width: 100%;
@@ -44,7 +25,7 @@
 
 
 .imagen__service{
-    width: 400px;
+    width: 300px;
     height: 200px;
 }
 

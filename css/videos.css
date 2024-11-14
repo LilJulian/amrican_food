@@ -1,23 +1,4 @@
-.contenedor__titulo {
-  display: flex;
-  flex-direction: var(--direccion-columnas);
-  height: 300px;
-  text-align: var(--alineacion);
-  justify-content: var(--alineacion);
-  align-items: var(--alineacion);
-}
 
-.about__titulo {
-  background-image: url(/img/fondoAbout.png);
-  background-size: cover;
-  width: 280px;
-  /* height: 50px; */
-}
-
-.about__descripcion {
-  margin-top: 30px;
-  width: 430px;
-}
 
 .about__grid {
   display: grid;
