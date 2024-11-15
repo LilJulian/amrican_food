@@ -32,6 +32,10 @@
     margin-bottom: 20px; 
   }
 
+  .cuadro__imagen{
+    width: 200px;
+  }
+
   .item__service{
     display: block;
   }
@@ -66,6 +70,10 @@
   
   .titulo__descripciones{
     font-size: 0.7rem;
+  }
+
+  .titulo__blog-parrafo{
+    font-size: 0.6rem;
   }
 
   /* Se le dan tamaños a las algunos elementos para que encajen responsivamente */
