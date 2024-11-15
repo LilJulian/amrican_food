@@ -58,8 +58,10 @@
 
 .titulo__about-enunciado{
   font-size: 2.4vw;
+  color: var(--color-texto-body);
 }
 
 .titulo__about-descripcion{
   font-size: 1.1vw;
+  color: var(--color-texto-body);
 }

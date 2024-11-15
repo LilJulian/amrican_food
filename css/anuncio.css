@@ -20,6 +20,7 @@
 
 .titulo__principal {
   font-size: 3vw;
+  color: var(--color-texto-titulo);
 }
 
 .titulo__secundario {
