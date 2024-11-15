@@ -1,3 +1,4 @@
+/* contenedor principal del menu */
 .contenedor__service{
     padding: 0 40px;
     margin-bottom: 80px;
@@ -5,7 +6,7 @@
 }
 
 
-
+/* configuracion de los items del menu */
 .item__service{
     width: 100%;
     display: flex;
@@ -23,7 +24,7 @@
     margin-right: 50px;
 }
 
-
+/* configuracion de la imagenes del menu */
 .imagen__service{
     width: 300px;
     height: 200px;
