@@ -1,0 +1,43 @@
+.botones__global {
+    display: flex;
+    margin-top: 40px;
+    align-items: var(--alineacion);
+    gap: 20px;
+  }
+  
+  .boton__largo {
+    width: 150px;
+  }
+  
+  .botones__servicios {
+    margin-left: 50px;
+  }
+  
+  .boton__des {
+    /* position: relative; */
+    top: 170px;
+    left: 50px;
+    width: 180px;
+  }
+  
+  .boton__descuen {
+    /* position: relative; */
+    top: 170px;
+    left: 1630px;
+    width: 180px;
+  }
+  
+  .boton__corto {
+    width: 50px;
+    font-size: 15px;
+  }
+  
+  .boton__largo,
+  .boton__corto {
+    height: 45px;
+    border: none;
+    background-color: var(--color-fondo-boton);
+    color: var(--color-body-fondo);
+    border-radius: 10px 0;
+    cursor: pointer;
+  }

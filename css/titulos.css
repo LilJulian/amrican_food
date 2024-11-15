@@ -13,6 +13,8 @@
     width: 21.2vw;
 }
 
+/* Se asignan los mismo estilos para todos los titulos */
+
 .about__titulo {
     background-image: url(/img/fondoAbout.png);
 }
@@ -39,3 +41,5 @@
 .titulo__descripciones{
     font-size: 1vw;
 }
+
+/* Se le da un ancho por separado a cada fondo ya que tienen diferentes tamaños */

@@ -24,7 +24,7 @@
 }
 
 .search__icon {
-  font-size: 1.2rem;
+  /* font-size: 2.2vw; */
   color: var(--color-body-fondo);
 }
 
@@ -46,8 +46,13 @@
 
 /* logo */
 
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
 .logo__img {
-  width: 80px;
+  width: 5.5vw;
   cursor: pointer;
 
 }
@@ -64,7 +69,7 @@
 
 .text__register {
   color: var(--color-body-fondo);
-  font-size: 1rem;
+  font-size: 1.5vw;
   font-weight: normal;
   cursor: pointer;
 }
