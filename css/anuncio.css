@@ -19,11 +19,12 @@
 }
 
 .titulo__principal {
-  font-size: 39px;
+  font-size: 3vw;
 }
 
 .titulo__secundario {
   font-family: "Arima", system-ui;
+  font-size: 2.5vw;
 }
 
 .titulos {
@@ -41,4 +42,5 @@
 
 .texto__anuncio-descripcion {
   color: var(--color-texto-info);
+  font-size: 1vw;
 }

@@ -33,5 +33,25 @@
   .item__service{
     display: block;
   }
+
+  .titulo__about-enunciado{
+    font-size: 1.5rem;
+  }
+
+  .titulo__about-descripcion{
+    font-size: 0.5rem;
+  }
+
+  .about__video_first{
+    width: 100%;
+  }
+
+  .about__video{
+    width: 100%;
+  }
+
+  .texto__blog{
+    height: 300px;
+  }
   
 }

@@ -3,8 +3,6 @@
   width: 100%;
 }
 
-
-
 .contenedor__blog {
   display: flex;
   justify-content: var(--alineacion);
@@ -26,9 +24,13 @@
   min-width: 30vw;
 }
 .titulo__blog{
-  font-size: 1.5rem;
+  font-size: 2.0vw;
 }
 
 .cuadro__imagen{
   width: 30vw;
+}
+
+.titulo__blog-parrafo{
+  font-size: 1.2vw;
 }
