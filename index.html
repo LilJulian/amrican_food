@@ -13,24 +13,24 @@
 <body class="american">
 
   <!-- Encabezado -->
-  <header class="encabezado">
+  <header class="encabezado"> <!-- contenedor del encbzado donde esta el header y el contenido como el serch, icono, y botones de compras o me gustas -->
     <div class="header__container">
-      <form action="search">
+      <form action="search"> <!-- aqui se encuentra el buscador o el serch -->
         <div class="contenedor__buscador">
-          <input class="search__input" type="text" placeholder="Search head">
+          <input class="search__input" type="text" placeholder="Search head"> <!-- este es un icono de la lup del buscador-->
           <i class="search__icon ri-search-line"></i>
         </div>
-        <hr class="search__hr">
+        <hr class="search__hr"> <!-- este es un hr que es la linea bajo del buscador-->
       </form>
-      <a href="index.html" class="logo">
-        <img src="/img/logo.png" alt="logo" class="logo__img">
+      <a href="index.html" class="logo"> <!-- este es el logo que cuando se le da click pues lo manda al inicio-->
+        <img src="/img/logo.png" alt="logo" class="logo__img"> <!-- este es la imagen del logo-->
       </a>
-      <div class="header__derecho">
+      <div class="header__derecho"> <!-- esta es la parte de la derecha del header y se encuentra los botones de compra y me gusta-->
         <h1 class="text__register">Register / Login</h1>
-        <div class="me_gusta">
+        <div class="me_gusta"> <!-- boton y icono de me gusta-->
           <i class="boton__icon ri-heart-3-line"></i>
         </div>
-        <div class="compra">
+        <div class="compra"> <!-- boton y icono de compra-->
           <i class="boton__icon ri-shopping-cart-2-line"></i>
         </div>
       </div>
@@ -38,58 +38,64 @@
 
   </header>
   <!-- Menu de navegacion -->
-  <nav class="menu">
-    <div class="menu-items">
-      <a href="#" class="menu-item">HOME</a>
-      <a href="#" class="menu-item">ABOUT US</a>
-      <a href="#" class="menu-item">SERVICE</a>
-      <a href="#" class="menu-item">PRICING</a>
-      <a href="#" class="menu-item">BLOG</a>
-      <a href="#" class="menu-item">CONTACT</a>
+  <nav class="menu container"> <!-- este es el contenedor donde est el menu de donde es ta apartdos de la pagina-->
+    <div class="menu__items"> <!-- aqui estan los itens del manu los cuales son los modificados-->
+      <a href="#" class="menu__item">HOME</a>
+      <a href="#" class="menu__item">ABOUT US</a>
+      <a href="#" class="menu__item">SERVICE</a>
+      <a href="#" class="menu__item">PRICING</a>
+      <a href="#" class="menu__item">BLOG</a>
+      <a href="#" class="menu__item">CONTACT</a>
     </div>
   </nav>
+
   <!-- Anuncio principal -->
-  <div class="anuncio">
+
+  <div class="anuncio"> <!-- contenedor del primer anuncio -->
     <div class="info">
       <!-- Contenido del anuncio principal -->
       <div class="titulos">
-        <h1 class="titulo__principal">AMERICAN FOOD</h1>
+        <h1 class="titulo__principal">AMERICAN FOOD</h1> <!-- texto del anuncio-->
         <h2 class="titulo__secundario">The Best Taste Food</h2>
       </div>
-      <hr class="linea__anuncio">
-      <div class="info__descripcion">
+      <hr class="linea__anuncio">  <!-- linea de separacion-->
+      <div class="info__descripcion"> <!-- informacion-->
         <h5 class="texto__anuncio-descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
           ipsam velit voluptates fugit impedit,
         </h5>
       </div>
-      <!-- Botones del anuncio principal -->
+
+      <!-- Boton del anuncio principal -->
+
       <div class="botones__global">
-        <button class="boton__largo">ORDER NOW</button>
+        <button class="boton__largo">ORDER NOW</button> <!-- estos son los botones los cuales tienen modificaciones ya sea largo o corto-->
         <button class="boton__corto"><i class='icono__anuncio ri-arrow-left-line'></i></button>
       </div>
     </div>
   </div>
+
   <!-- Sobre nosotros -->
-  <div class="about">
-    <div class="contenedor__titulo">
-      <div class="about__titulo">
-        <h1 class="about__principal">ABOUT US</h1>
+
+  <div class="about"> <!-- este es el about donde esta informacion mas sobre nosotros-->
+    <div class="contenedor__titulo"> <!-- el contenedor del titulo-->
+      <div class="about__titulo"> 
+        <h1 class="about__principal">ABOUT US</h1> <!-- titulo-->
       </div>
       <div class="about__descripcion">
         <h5 class="about_descripcion-texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod eius
-          accusamus quam
+          accusamus quam <!-- este es un lorem que se puso debajo del titulo-->
           repellat placeat molestiae?
-        </h5>
+        </h5> 
       </div>
     </div>
-    <div class="about__grid">
+    <div class="about__grid"> <!-- aqui comenzamos una grid la cual nos ayudo a acomodar el texto y las imagenes-->
       <div class="descripcion__first">
         <div class="titulo__about">
-          <h1>Let food be thy medicine </h1>
+          <h1>Let food be thy medicine </h1> <!-- estos son titulos-->
           <h1>medicine be thy food</h1>
         </div>
-        <div class="texto__about">
-          <p>
+        <div class="texto__about"> 
+          <p> <!-- este es solo informacion acomodada con la grid-->
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, omnis neque laudantium deleniti possimus
             inventore commodi aliquam sequi nisi cum iste voluptas sapiente minima. Enim saepe quibusdam architecto aut
             odio corrupti? Fugit sunt dolorum delectus, quam quis odio distinctio. Sit quo facilis eveniet numquam harum
@@ -103,23 +109,23 @@
             ullam at minima voluptates vel quae optio illum quis error veritatis culpa magni similique iste
           </p>
         </div>
-        <div class="botones__global">
-          <button class="boton__largo">READ MORE</button>
-          <button class="boton__corto"><i class='icono__anuncio ri-arrow-left-line'></i></button>
+        <div class="botones__global"> <!-- este es un boton el cual tiene la clase de algunos botones dependiendo de como es ya sea largo o corto-->
+          <button class="boton__largo">READ MORE</button> <!-- este es el boton que tiene la clase de boton largo-->
+          <button class="boton__corto"><i class='icono__anuncio ri-arrow-left-line'></i></button> <!-- y este es el del corto y trae un icono de una flecha-->
         </div>
       </div>
-      <div class="about__video_first">
+      <div class="about__video_first"> <!-- estos son unas imagenes de iconos de youtube que estan en el medio acomodados en el centro de las imagenes-->
         <img src="img/logo_youtube.png" alt="">
       </div>
       <div class="about__video">
-        <img src="img/logo_youtube.png" alt="">
+        <img src="img/logo_youtube.png" alt=""> <!-- este es igual el logo en el centro de la imagen-->
       </div>
       <div class="descripcion">
-        <div class="titulo__about">
+        <div class="titulo__about"> <!-- esta es un titulo y un poco mas de texto-->
           <h1>Let food be thy medicine </h1>
           <h1>medicine be thy food</h1>
         </div>
-        <div class="texto__about">
+        <div class="texto__about"> <!-- texto o informacion la cual tambien fue acomodada con la grid-->
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, omnis neque laudantium deleniti possimus
             inventore commodi aliquam sequi nisi cum iste voluptas sapiente minima. Enim saepe quibusdam architecto aut
@@ -134,9 +140,9 @@
             ullam at minima voluptates vel quae optio illum quis error veritatis culpa magni similique iste
           </p>
         </div>
-        <div class="botones__global">
+        <div class="botones__global"> <!-- otro boton que igual a los pasados tiene clase de algunos porque son iguales-->
           <button class="boton__largo">READ MORE</button>
-          <button class="boton__corto"><i class='icono__anuncio ri-arrow-left-line'></i></button>
+          <button class="boton__corto"><i class='icono__anuncio ri-arrow-left-line'></i></button> <!-- icono de fleca-->
         </div>
       </div>
     </div>
@@ -144,13 +150,13 @@
   </div>
   <!-- services -->
   <div class="services">
-    <div class="services__principal">
+    <div class="services__principal"> <!-- titulo el cual se le dio atributos y clases que se acomodo como se hizo con el anterior-->
       <p class="titulo__services">SERVICE</p>
       <p class="text-titulo__services">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod eius
         accusamus quam
-        repellat placeat molestiae?</p>
+        repellat placeat molestiae?</p> <!-- un lorem el cual va debajo de el titulo-->
     </div>
-   <div class="contenedor__service">
+   <div class="contenedor__service"> <!-- este es el contenedor de servivios donde esta titulo, informacion, imagen del producto-->
     <div class="item__service">
       <div class="service__left">
         <div class="titulo__service">

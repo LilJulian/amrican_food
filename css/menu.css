@@ -10,7 +10,7 @@
 }
 
 /* items dentro del menu de encabezado */
-.menu-items{
+.menu__items{
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -18,7 +18,7 @@
   justify-content: var(--alineacion);
 }
 /* items individuales dentro del menu */
-.menu-item{
+.menu__item{
   color: var(--color-texto-body);
   text-decoration: none;
   font-size: 2.1vw;
