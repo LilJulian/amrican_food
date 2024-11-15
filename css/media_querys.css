@@ -21,6 +21,8 @@
     padding: 40px;
   }
 
+  /* Se modifican las grid para que queden acorde a el tamaño de un movil */
+
   .contenedor__blog{
     flex-direction: var(--direccion-columnas);
     margin-left: 25%;
@@ -53,5 +55,18 @@
   .texto__blog{
     height: 300px;
   }
+
+  .contenedor__titulo{
+    height: 150px;
+  }
+
+  .titulo__grande{
+    font-size: 1rem;
+  }
   
+  .titulo__descripciones{
+    font-size: 0.7rem;
+  }
+
+  /* Se le dan tamaños a las algunos elementos para que encajen responsivamente */
 }
